@@ -19,7 +19,7 @@ apiready = function () {
     api.addEventListener({
         name: 'keyback'
     }, function (ret, err) {
-        return false;
+        api.closeWidget();
     });
     api.openFrameGroup({
         name: 'home',

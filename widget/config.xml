@@ -26,6 +26,7 @@
   <permission name="fileSystem"/>  
   <permission name="bootCompleted"/>  
   <permission name="hardware"/>  
-  <permission name="contact"/> -->  
+  <permission name="contact"/> -->
+  <preference name="debug" value="true"/>
   <access origin="*"/> 
 </widget>
